@@ -1,4 +1,7 @@
+import { url } from "inspector";
+
 export const navItems = [
+    { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
@@ -107,31 +110,31 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Working with Egi was a delight! Their expertise in Nuxt.js and Laravel helped us achieve a website that not only looks great but performs flawlessly.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "I was impressed with how Egi translated our ideas into a responsive and user-friendly interface using Nuxt.js. Their attention to detail and dedication to quality were evident throughout the project.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Thanks to Egi's skill with Laravel, we now have a secure and efficient backend that perfectly complements our frontend. They were responsive to our needs and delivered beyond our expectations.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Choosing Egi as our freelance front-end developer was a wise decision. Their proficiency in Nuxt.js ensured our website not only ranks well but also provides a seamless experience for our users.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Highly recommend Egi for anyone looking to create a modern and responsive website. Their expertise in both Nuxt.js and Laravel made our project a success, and their professionalism was outstanding.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
@@ -173,22 +176,22 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Full Stack Developer - Redcomm Indonesia",
+      desc: "I use Node.js, Nuxt.js, Next.js, and Laravel to create fast, user-friendly websites and powerful back-end systems. I build responsive interfaces and handle data efficiently, ensuring seamless performance across the entire application.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Front End Developer Redcomm Indonesia",
+      desc: "I specialize in crafting user-friendly interfaces using HTML, CSS, and JavaScript. I transform design concepts into responsive, visually appealing websites and applications, ensuring seamless functionality across devices.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Front End Developer - Freelance",
+      desc: "using Nuxt.js for building fast and SEO-friendly websites, and Laravel for creating secure back-end systems and APIs. I focus on delivering responsive and dynamic web solutions that meet client needs effectively.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
@@ -205,13 +208,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url:"https://github.com/egyramadhan"
     },
     {
       id: 2,
       img: "/twit.svg",
+      url:""
     },
     {
       id: 3,
       img: "/link.svg",
+      url:"https://www.linkedin.com/in/egi-ramadhan/"
     },
   ];
