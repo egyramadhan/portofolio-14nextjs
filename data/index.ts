@@ -213,8 +213,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Frontend Developer - Asclar Indonesia",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Full Stack Developer - Asclar Indonesia",
+      desc: "I use Laravel to create secure back-end systems and APIs, and Livewire.js for building fast and SEO-friendly websites. I focus on delivering responsive and dynamic web solutions that meet client needs effectively.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
