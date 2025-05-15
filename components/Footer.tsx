@@ -33,7 +33,7 @@ const Footer = () => {
 
       <div className="flex flex-col gap-4 items-center justify-between md:flex-row mt-16">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Egi Ramadhan
+          Copyright © 2025 Egi Ramadhan
         </p>
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
